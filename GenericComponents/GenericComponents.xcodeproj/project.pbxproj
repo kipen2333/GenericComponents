@@ -13,6 +13,7 @@
 		E5D6A42B203C128D00BF529C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D6A42A203C128D00BF529C /* Assets.xcassets */; };
 		E5D6A42E203C128D00BF529C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D6A42C203C128D00BF529C /* LaunchScreen.storyboard */; };
 		E5D6A431203C128D00BF529C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D6A430203C128D00BF529C /* main.m */; };
+		E5D6A439203C12BC00BF529C /* NSObject+PropertyTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D6A438203C12BC00BF529C /* NSObject+PropertyTrans.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		E5D6A42D203C128D00BF529C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5D6A42F203C128D00BF529C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5D6A430203C128D00BF529C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5D6A437203C12BC00BF529C /* NSObject+PropertyTrans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyTrans.h"; sourceTree = "<group>"; };
+		E5D6A438203C12BC00BF529C /* NSObject+PropertyTrans.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyTrans.m"; sourceTree = "<group>"; };
+		E5D6A43A203C131500BF529C /* globalhead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globalhead.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,9 @@
 				E5D6A42C203C128D00BF529C /* LaunchScreen.storyboard */,
 				E5D6A42F203C128D00BF529C /* Info.plist */,
 				E5D6A430203C128D00BF529C /* main.m */,
+				E5D6A437203C12BC00BF529C /* NSObject+PropertyTrans.h */,
+				E5D6A438203C12BC00BF529C /* NSObject+PropertyTrans.m */,
+				E5D6A43A203C131500BF529C /* globalhead.h */,
 			);
 			path = GenericComponents;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 				E5D6A426203C128D00BF529C /* ViewController.m in Sources */,
 				E5D6A431203C128D00BF529C /* main.m in Sources */,
 				E5D6A423203C128D00BF529C /* AppDelegate.m in Sources */,
+				E5D6A439203C12BC00BF529C /* NSObject+PropertyTrans.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

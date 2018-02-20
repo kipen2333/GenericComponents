@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "globalhead.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+// 字典转属性声明
+-(void)propertyTrans{
+    
+    NSString * path = [[NSBundle mainBundle]pathForResource:@"a.plist" ofType:nil];
+    NSDictionary * dic = [NSDictionary dictionaryWithContentsOfFile:path];
+    [NSObject propertyTransform:dic];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -10,4 +10,5 @@
 
 @interface NSObject (PropertyTrans)
 
++(void)propertyTransform:(NSDictionary *)dic;
 @end

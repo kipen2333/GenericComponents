@@ -6,8 +6,5 @@
 //  Copyright © 2018年 kipen. All rights reserved.
 //
 
-#ifndef globalhead_h
-#define globalhead_h
-
-
-#endif /* globalhead_h */
+// 遍历dic,输出属性声明语句
+#import "NSObject+PropertyTrans.h"
